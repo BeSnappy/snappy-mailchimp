@@ -1,0 +1,21 @@
+{
+    "name": "snappy/mailchimp",
+    "description": "Mailchimp integration for Snappy.",
+    "authors": [
+        {
+            "name": "UserScape, Inc.",
+            "email": "it@userscape.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "snappy/app-support": "dev-master",
+        "mailchimp/mailchimp": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
