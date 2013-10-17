@@ -17,7 +17,7 @@ class App extends BaseApp implements ContactCreatedHandler {
 	 *
 	 * @var string
 	 */
-	public $description = 'Add contacts to a MailChimp list';
+	public $description = 'Automatically add contacts to a MailChimp list';
 
 	/**
 	 * Any notes about this application
