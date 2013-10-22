@@ -38,6 +38,13 @@ class App extends BaseApp implements ContactCreatedHandler {
 	 */
 	public $icon = 'mailchimp.png';
 
+	/**
+	 * The application service's main website.
+	 *
+	 * @var string
+	 */
+	public $website = 'https://mailchimp.com';
+
 		/**
 	 * The application author name.
 	 *
